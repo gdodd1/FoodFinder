@@ -7,11 +7,28 @@ const awsmobile = {
     "aws_cognito_region": "us-east-1",
     "aws_user_pools_id": "us-east-1_QMS6fiYKc",
     "aws_user_pools_web_client_id": "lo8qkj4q8ecedv63p2e6p1obd",
-    "oauth": {},
+    "oauth": {
+        "domain": "foodfinder455c2558-455c2558-staging.auth.us-east-1.amazoncognito.com",
+        "scope": [
+            "phone",
+            "email",
+            "openid",
+            "profile",
+            "aws.cognito.signin.user.admin"
+        ],
+        "redirectSignIn": "https://www.localhost:3000/,https://www.awsinterns.net/",
+        "redirectSignOut": "https://www.awsinterns.net/,https://www.localhost:3000/",
+        "responseType": "code"
+    },
+    "federationTarget": "COGNITO_USER_POOLS",
     "aws_cognito_username_attributes": [
         "EMAIL"
     ],
-    "aws_cognito_social_providers": [],
+    "aws_cognito_social_providers": [
+        "FACEBOOK",
+        "GOOGLE",
+        "AMAZON"
+    ],
     "aws_cognito_signup_attributes": [
         "EMAIL"
     ],

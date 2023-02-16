@@ -1,10 +1,12 @@
 import React, { Component } from "react";
-import { Authenticator } from "@aws-amplify/ui-react";
+import { Authenticator, withAuthenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
-export default class Login extends Component {
+class Login extends Component {
   render() {
     return (
+    
       <Authenticator>
+        
         {({ signOut }) => (
           <div>
             <h1>You are logged in</h1>
@@ -12,6 +14,7 @@ export default class Login extends Component {
           </div>
         )}
       </Authenticator>
+
       // <section className="bg-gray-50 dark:bg-gray-900">
       //   <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
       //     <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
@@ -140,3 +143,6 @@ export default class Login extends Component {
     );
   }
 }
+export default withAuthenticator(Login,{
+  socialProviders : ['google', 'facebook', 'amazon']
+});
