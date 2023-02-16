@@ -10,12 +10,12 @@ const IndexPage = () => {
       <nav className="bg-white shadow-sm px-4 py-2 flex justify-end">
         <ul className="flex items-center">
           <li className="mr-4">
-          <Link href="./components/Login" as = "button">
+          <Link href="./components/Login">
               Login
             </Link>
           </li>
           <li>
-            <Link href="./components/SignUp" as = "button">
+            <Link href="./components/SignUp">
               Signup
             </Link>
           </li>
