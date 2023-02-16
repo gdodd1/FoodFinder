@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-export default class SearchBar extends Component {
+export default class Navbar extends Component {
   render() {
     return (
-      <div>Search</div>
+      <div>Navbar</div>
     )
   }
 }

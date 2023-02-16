@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class restaurantCard extends Component {
+export default class RestaurantCard extends Component {
   render() {
     return (
       <div>restaurantCard</div>

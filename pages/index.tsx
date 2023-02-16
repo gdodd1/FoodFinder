@@ -1,7 +1,7 @@
 import Link from "next/link";
-import SearchBar from "./components/searchbar";
-import Map from "./components/map";
-import RestaurantCard from "./components/restaurantCard";
+import Map from "./components/Map";
+import RestaurantCard from "./components/RestaurantCard";
+
 
 const IndexPage = () => {
   return (
@@ -22,10 +22,6 @@ const IndexPage = () => {
         </ul>
       </nav>
 
-      {/* Search bar */}
-      <div className="container mx-auto mt-8 mb-4 px-4">
-        <SearchBar />
-      </div>
 
       {/* Google Map */}
       <div className="container mx-auto px-4 mb-4">
