@@ -9,8 +9,8 @@ const IndexPage = () => {
       {/* Navigation */}
       <nav className="bg-white shadow-sm px-4 py-2 flex justify-end">    
         <div className="flex space-x-4 items-center">
-          <Link href="./components/login" className="text-gray-800 text-sm">LOGIN</Link>
-          <Link href="./components/signup" className="bg-indigo-600 px-4 py-2 rounded text-white hover:bg-indigo-500 text-sm">SIGNUP</Link>
+          {/* <Link href="./components/login" className="text-gray-800 text-sm">LOGIN</Link> */}
+        <Link href="./components/login" className="bg-indigo-600 px-4 py-2 rounded text-white hover:bg-indigo-500 text-sm">LOGIN</Link>
         </div>
       </nav>
        
