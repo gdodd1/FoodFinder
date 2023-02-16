@@ -3,22 +3,17 @@ import Map from "./components/Map";
 import RestaurantCard from "./components/RestaurantCard";
 import SearchBar from "./components/Search";
 import React from "react";
-
 const IndexPage = () => {
   return (
     <div className="bg-gray-100">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm px-4 py-2 flex justify-end">
-        <ul className="flex items-center">
-          <li className="mr-4">
-            <Link href="./components/Login">Login</Link>
-          </li>
-          <li>
-            <Link href="./components/SignUp">Signup</Link>
-          </li>
-        </ul>
+      <nav className="bg-white shadow-sm px-4 py-2 flex justify-end">    
+        <div className="flex space-x-4 items-center">
+          <Link href="./components/Login" className="text-gray-800 text-sm">LOGIN</Link>
+          <Link href="./components/SignUp" className="bg-indigo-600 px-4 py-2 rounded text-white hover:bg-indigo-500 text-sm">SIGNUP</Link>
+        </div>
       </nav>
-
+       
       {/* Google Map */}
       <div className="container mx-auto px-4 mb-4">
         <SearchBar />
