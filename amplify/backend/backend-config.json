@@ -17,7 +17,6 @@
         ],
         "socialProviders": [
           "FACEBOOK",
-          "GOOGLE",
           "AMAZON"
         ],
         "usernameAttributes": [
