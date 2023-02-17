@@ -1,11 +1,16 @@
 import React, { Component } from "react";
 import { Authenticator, withAuthenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
+import { Amplify } from 'aws-amplify'
+import config from '../../src/aws-exports'
+
+
+Amplify.configure({ ...config, ssr: true })
 class Login extends Component {
   render() {
     return (
-    
-      <Authenticator>
+      
+      <Authenticator>     
         
         {({ signOut }) => (
           <div>
@@ -143,6 +148,8 @@ class Login extends Component {
     );
   }
 }
+
+
 export default withAuthenticator(Login,{
   socialProviders : ['google', 'facebook', 'amazon']
 });

@@ -3,12 +3,12 @@
 
 const awsmobile = {
     "aws_project_region": "us-east-1",
-    "aws_cognito_identity_pool_id": "us-east-1:a0499b5f-dfe1-474d-b5c2-8b5cd50b95cd",
+    "aws_cognito_identity_pool_id": "us-east-1:703b3ae2-e59a-4b89-9af5-3163492a3822",
     "aws_cognito_region": "us-east-1",
-    "aws_user_pools_id": "us-east-1_QMS6fiYKc",
-    "aws_user_pools_web_client_id": "lo8qkj4q8ecedv63p2e6p1obd",
+    "aws_user_pools_id": "us-east-1_d3GiPlKK6",
+    "aws_user_pools_web_client_id": "5roi9lh6s55sgpggrb6tsjldt1",
     "oauth": {
-        "domain": "foodfinder22c6074f-22c6074f-staging.auth.us-east-1.amazoncognito.com",
+        "domain": "foodfinderec4810af-ec4810af-staging.auth.us-east-1.amazoncognito.com",
         "scope": [
             "phone",
             "email",
@@ -16,16 +16,15 @@ const awsmobile = {
             "profile",
             "aws.cognito.signin.user.admin"
         ],
-        "redirectSignIn": "https://wwww.awsinterns.net/components/login/,https://www.awsinterns.net/",
-        "redirectSignOut": "https://wwww.awsinterns.net/components/login/",
+        "redirectSignIn": "https://www.awsinterns.net/,https://localhost:3000/",
+        "redirectSignOut": "https://www.awsinterns.net/,https://localhost:3000/",
         "responseType": "code"
     },
     "federationTarget": "COGNITO_USER_POOLS",
-    "aws_cognito_username_attributes": [
-        "EMAIL"
-    ],
+    "aws_cognito_username_attributes": [],
     "aws_cognito_social_providers": [
         "FACEBOOK",
+        "GOOGLE",
         "AMAZON"
     ],
     "aws_cognito_signup_attributes": [

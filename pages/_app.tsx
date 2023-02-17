@@ -4,11 +4,13 @@ import Navbar from './components/navbar'
 import { Amplify } from 'aws-amplify'
 import config from '../src/aws-exports'
 
+
 Amplify.configure({ ...config, ssr: true })
 
 function MyApp({ Component, pageProps }: AppProps) {
   return<>
     <Navbar />
+   
    <Component {...pageProps} />
 
    </>

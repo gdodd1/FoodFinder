@@ -13,6 +13,24 @@
     },
     "categories": {
       "auth": {
+        "foodfinderec4810af": {}
+      }
+    }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-foodfinder-dev-144341-authRole",
+      "UnauthRoleArn": "arn:aws:iam::987136560765:role/amplify-foodfinder-dev-144341-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::987136560765:role/amplify-foodfinder-dev-144341-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-foodfinder-dev-144341-deployment",
+      "UnauthRoleName": "amplify-foodfinder-dev-144341-unauthRole",
+      "StackName": "amplify-foodfinder-dev-144341",
+      "StackId": "arn:aws:cloudformation:us-east-1:987136560765:stack/amplify-foodfinder-dev-144341/62427420-aefb-11ed-8718-0e322bea3bab",
+      "AmplifyAppId": "d3id2fbxhyb3i9"
+    },
+    "categories": {
+      "auth": {
         "foodfinder1fa93c11": {}
       }
     }
