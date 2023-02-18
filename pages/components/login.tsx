@@ -5,17 +5,17 @@ import { Amplify } from 'aws-amplify'
 import config from '../../src/aws-exports'
 
 
-Amplify.configure({ ...config, ssr: true })
+Amplify.configure(config)
 class Login extends Component {
   render() {
     return (
       
       <Authenticator>     
         
-        {({ signOut }) => (
+        {({signOut, user  }) => (
           <div>
-            <h1>You are logged in</h1>
-            <button onClick={signOut} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"> Log out</button>
+            <h1>Hello {user.username}</h1>
+            <button onClick={signOut} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded"> Log out</button>
           </div>
         )}
       </Authenticator>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Map from "./components/Map";
 import RestaurantCard from "./components/RestaurantCard";
 import SearchBar from "./components/Search";
+
 import React from "react";
 const IndexPage = () => {
   return (
@@ -27,6 +28,8 @@ const IndexPage = () => {
       <div className="container mx-auto px-4">
         <RestaurantCard />
       </div>
+
+     
     </div>
   );
 };
