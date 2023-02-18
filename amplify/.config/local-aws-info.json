@@ -1,8 +1,8 @@
 {
   "staging": {
     "configLevel": "project",
-    "useProfile": true,
-    "profileName": "amplifyan"
+    "useProfile": false,
+    "awsConfigFilePath": "/Users/alexnguyen/.amplify/awscloudformation/6UZCk0sski"
   },
   "dev": {
     "configLevel": "project",

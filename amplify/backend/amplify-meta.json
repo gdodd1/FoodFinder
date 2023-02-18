@@ -51,7 +51,7 @@
         "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://awsinterns.net/\"],\"LogoutURLs\":[\"https://awsinterns.net/\"]}",
         "UserPoolName": "foodfinderec4810af_userpool_ec4810af"
       },
-      "lastPushTimeStamp": "2023-02-18T23:01:08.727Z",
+      "lastPushTimeStamp": "2023-02-18T23:15:29.389Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyedf73895f87a4-staging-164813-deployment/amplify-cfn-templates/auth/foodfinderec4810af-cloudformation-template.json",
         "logicalId": "authfoodfinderec4810af"
