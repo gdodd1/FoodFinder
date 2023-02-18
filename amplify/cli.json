@@ -11,13 +11,13 @@
         "transformerversion": 2,
         "suppressschemamigrationprompt": true,
         "securityenhancementnotification": false,
-        "showfieldauthnotification": false,
-        "usesubusernamefordefaultidentityclaim": true,
-        "usefieldnameforprimarykeyconnectionfield": false,
-        "enableautoindexquerynames": true,
-        "respectprimarykeyattributesonconnectionfield": true,
-        "shoulddeepmergedirectiveconfigdefaults": false,
-        "populateownerfieldforstaticgroupauth": true
+       // "showfieldauthnotification": false,
+       // "usesubusernamefordefaultidentityclaim": true,
+        //"usefieldnameforprimarykeyconnectionfield": false,
+       // "enableautoindexquerynames": true,
+       // "respectprimarykeyattributesonconnectionfield": true,
+        //"shoulddeepmergedirectiveconfigdefaults": false,
+       // "populateownerfieldforstaticgroupauth": true
       },
       "frontend-ios": {
         "enablexcodeintegration": true
@@ -40,7 +40,7 @@
         "emitauthprovider": true,
         "generateindexrules": true,
         "enabledartnullsafety": true,
-        "generatemodelsforlazyloadandcustomselectionset": false
+       // "generatemodelsforlazyloadandcustomselectionset": false
       },
       "appsync": {
         "generategraphqlpermissions": true
