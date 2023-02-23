@@ -5,10 +5,10 @@ import Navbar from './components/navbar'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className="font-sans">
+    <>
       <Navbar />
-      <Component {...pageProps} />
-    </div>
+      <div className="pt-[70px]"><Component {...pageProps} /></div>
+    </>
   )
 }
 
