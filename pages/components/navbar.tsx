@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Button from './button'
+import { MdFastfood } from 'react-icons/md'
 
 const Navbar = () => {
   let Links = [
@@ -15,8 +16,8 @@ const Navbar = () => {
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
         {/* Site Logo and Title */}
         <div className="font-bold text-2x1 cursor-pointer flex items-center text-gray-800">
-          <span>
-            {/* Logo goes here */}
+          <span className="text-3x1 text-orange-500 mr-1 pb-1">
+            <MdFastfood />
           </span>
           FoodFinder
         </div>
