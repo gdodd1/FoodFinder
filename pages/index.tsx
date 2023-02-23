@@ -2,7 +2,6 @@ import Map from "./components/map";
 import RestaurantCard from "./components/restaurantCard";
 import SearchBar from "./components/search";
 
-import React from "react";
 const IndexPage = () => {
   return (
     <div className="bg-gray-100">
