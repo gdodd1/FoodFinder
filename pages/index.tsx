@@ -7,8 +7,8 @@ const IndexPage = () => {
   return (
     <div className="bg-gray-100">
       {/* Google Map */}
-      <div className="container mx-auto px-4 mb-4">
-        {/* <SearchBar /> */}
+      <div className="container mx-auto px-4 mb-4 pt-20">
+        <SearchBar />
       </div>
 
       {/* Google Map */}
