@@ -1,13 +1,12 @@
 import React from 'react'
 import Button from './button'
-import Link from "next/link";
 
 const Navbar = () => {
   let Links = [
     { name: "Home", link: "/" },
-    { name: "Service", link: "/" },
-    { name: "About", link: "/" },
-    { name: "Contact", link: "/" },
+    { name: "Service", link: "/service" },
+    { name: "About", link: "../about" },
+    { name: "Contact", link: "/contact" },
   ]
 
   return (
