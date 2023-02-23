@@ -1,6 +1,6 @@
-import Map from "./components/Map";
-import RestaurantCard from "./components/RestaurantCard";
-import SearchBar from "./components/Search";
+import Map from "./components/map";
+import RestaurantCard from "./components/restaurantCard";
+import SearchBar from "./components/search";
 
 import React from "react";
 const IndexPage = () => {
