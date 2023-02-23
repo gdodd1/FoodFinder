@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import Button from './button'
 
@@ -5,7 +6,7 @@ const Navbar = () => {
   let Links = [
     { name: "Home", link: "/" },
     { name: "Service", link: "/service" },
-    { name: "About", link: "../about" },
+    { name: "About", link: "/about" },
     { name: "Contact", link: "/contact" },
   ]
 
@@ -38,12 +39,7 @@ const Navbar = () => {
 
           {/* Buttons */}
           <Button>
-            Login
-            {/*
-            <Link href="./components/login" className="text-gray-800 text-sm">LOGIN</Link>
-            <Link href="./components/login" className="bg-indigo-600 px-4 py-2 rounded text-white hover:bg-indigo-500 text-sm">LOGIN</Link>
-            */}
-
+            <Link href="/login">Login</Link>
           </Button>
         </ul>
       </div>
