@@ -4,21 +4,15 @@ import SearchBar from "./components/search";
 
 const IndexPage = () => {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 pt-20 px-32">
       {/* Google Map */}
-      <div className="container mx-auto px-4 mb-4 pt-14">
-        <SearchBar />
-      </div>
+      <SearchBar />
 
       {/* Google Map */}
-      <div className="container mx-auto px-4 mb-4">
-        <Map />
-      </div>
+      <Map />
 
       {/* Food Car */}
-      <div className="container mx-auto px-4 mb-4">
-        <RestaurantCard />
-      </div>
+      <RestaurantCard />
     </div>
   );
 };
