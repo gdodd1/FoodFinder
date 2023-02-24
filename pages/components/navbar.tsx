@@ -17,11 +17,11 @@ const Navbar = () => {
     <div className="shadow-md w-full fixed top-0 left-0">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
         {/* Site Logo and Title */}
-        <div className="font-bold text-2xl cursor-pointer flex items-center text-gray-800">
-          <span className="text-3xl text-orange-500 mr-1 pb-3">
-            <MdFastfood />
-          </span>
-          FoodFinder
+        <div className="flex items-center font-bold text-2xl cursor-pointer text-gray-800">
+          <a href="/" className="flex flex-row">
+            <MdFastfood className="text-3xl text-orange-500 mr-1 pb-1" />
+            FoodFinder
+          </a>
         </div>
 
         {/* Hamburger Menu */}

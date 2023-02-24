@@ -1,14 +1,12 @@
 import Map from "./components/map";
 import RestaurantCard from "./components/restaurantCard";
-import Dropdown from "./components/dropdown";
+import SearchBar from "./components/searchbar";
 
 const IndexPage = () => {
   return (
-    <div className="bg-gray-100 pt-20 px-32">
+    <div className="flex flex-col justify-center items-center bg-gray-100 pt-20 px-32">
       {/* Searchbar */}
-      <div>
-        <Dropdown />
-      </div>
+      <SearchBar />
 
       {/* Google Map */}
       <Map />
